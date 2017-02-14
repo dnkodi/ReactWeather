@@ -12,8 +12,14 @@ var React = require ('react');
 var About = (props) => {
   return (
          <div>
-           <h3>About</h3>
-           <p>Welcome to About page!</p>
+           <h1 className="text-center">About</h1>
+           <p>Welcome to React Weather App. This is built on react. Ive followed the React developer course.</p>
+           <p>Here are some of the tools i have used:</p>
+           <ul>
+             <li><a href="https://facebook.com">React</a>- The react framework i used</li>
+             <li><a href="http://github.com">Github</a>- Github to manage my code</li>
+           </ul>
+
          </div>
        )
 };
